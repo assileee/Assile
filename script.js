@@ -1,6 +1,6 @@
-const buttons = document.getElementById("buttons");
-console.log(buttons);
+const buttons = document.getElementById("buttons")
+console.log(buttons)
 
-buttons.addEventListener('click', () => {
-    document.querySelectorAll(".button").classList.buttons('show')
-});
+buttons.addEventListener("click", () => {
+	document.querySelector(".navbar").classList.toggle("show")
+})
